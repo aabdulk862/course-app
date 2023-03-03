@@ -5,6 +5,6 @@ export const getCoursesRoute = {
     method: 'get',
     handler: (req, res) => {
         //TODO: Uncomment get the courses from json file
-        //res.status(200).send(courseData);
+        res.status(200).send(courseData);
     },
 };
